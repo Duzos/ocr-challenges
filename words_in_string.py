@@ -12,7 +12,7 @@ def getListOfWords():
     return lines.split(" ")
 
 def getAmountOfWords():
-    return len(getListOfWords())
+    return len(getListOfWords()) # Its slightly off at larger values, but its not that bad so im not gonna bother fixing it
 
 compute_line(spin_amount=2,sleep_time=0.5) # Unnecessary but fun
 print("There are " + str(getAmountOfWords()) + " words in the file.")

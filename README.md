@@ -7,6 +7,8 @@
 ### Inside the new json file, put a {}
 ## Done!
 
+~~I have a method naming problem~~
+
 # Challenges
 - [x] Mastermind
 - [x] Averages
@@ -14,7 +16,7 @@
 - [ ] Password Reset Program
 - [ ] Basic Lists
 - [ ] Max and min list
-- [ ] Letter list
+- [x] Letter list
 - [ ] RPG character/Pokemon stat creator 
 - [ ] Quiz Maker
 - [ ] Check if Palindrome
