@@ -18,7 +18,7 @@
 - [ ] Max and min list
 - [x] Letter list
 - [ ] RPG character/Pokemon stat creator 
-- [ ] Quiz Maker
+- [x] Quiz Maker
 - [ ] Check if Palindrome
 - [x] Count Words in a String
 - [ ] Pig Latin
