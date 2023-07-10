@@ -26,5 +26,5 @@
 - [x] Shopping List
 - [ ] Hangman
 - [x] Squares
-- [ ] Times Tables
+- [x] Times Tables
 - [ ] Binary/Hexidecimal/Decimal
