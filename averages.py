@@ -1,4 +1,5 @@
 import json
+from util import *
 
 JSON_PATH = "json/averages.json"
 
@@ -56,13 +57,6 @@ def printAverages(list: list):
     print("Mean: " + str(getMeanOfList(list=list)))
     print("Mode: " + str(getModeofList(list=list)))
     print("Median: " + str(getMedianOfList(list=list)))
-
-def choicesToPrettyString(list: list):
-    message = "("
-    for choice in list:
-        message = message + " | " + choice 
-    message = message + " | )"
-    return message
 
 def askChoice():
     VALID_CHOICES = ["add","print","clear","load","settings","quit"]
