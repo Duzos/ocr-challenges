@@ -41,3 +41,26 @@ def compute_line(text: str = 'Computing',sleep_time: str = 1,spin_amount: int = 
             print (b, end="\r")
             time.sleep(sleep_time)
         spin_amount = spin_amount - 1
+
+# Splitter
+import re
+
+class Splitter():
+    def __init__(self, filepath: str):
+        self.path = filepath
+
+    def split(self, text: str):
+        split_lines = re.split('(?<=[.!?]) +',text)
+        lines = ""
+
+        for line in split_lines:
+            lines = lines + "\n" + line
+        
+        return lines
+    
+    def rewrite(self):
+        file = open(self.path, "r")
+        lines = self.split(file.read())
+        
+        file = open(self.path, "w")
+        file.write(lines)

@@ -18,7 +18,7 @@
 - [ ] RPG character/Pokemon stat creator 
 - [ ] Quiz Maker
 - [ ] Check if Palindrome
-- [ ] Count Words in a String
+- [x] Count Words in a String
 - [ ] Pig Latin
 - [ ] Count Vowels
 - [ ] Unit Converter
